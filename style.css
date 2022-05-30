@@ -53,7 +53,8 @@
     list-style: none;
 }
 
-.input-text, .button {
+.input-text,
+.button {
     outline: none;
 }
 
@@ -115,7 +116,6 @@ label[for="new-task"] {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,7 +151,8 @@ li > label {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks
+label {
     text-decoration: line-through;
     color: #888;
 }
@@ -168,6 +169,8 @@ ul#completed-tasks label {
     width: 224px;
 }
 
-ul li.todo-section__list-item_edit label {
+ul
+li.todo-section__list-item_edit
+label {
     display: none;
 }
