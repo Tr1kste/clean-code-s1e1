@@ -151,8 +151,8 @@
 }
 
 /* Completed */
-ul#completed-tasks
-label {
+.complited-section__list
+.main__task-text {
     text-decoration: line-through;
     color: #888;
 }
@@ -169,8 +169,7 @@ label {
     width: 224px;
 }
 
-ul
-li.todo-section__list-item_edit
-label {
+.todo-section__list-item_edit
+.main__task-text {
     display: none;
 }
