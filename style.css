@@ -37,7 +37,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-section__wrapper {
@@ -159,13 +159,13 @@ ul#completed-tasks label {
 /* Edit Task */
 .list
 .input-text {
-    display: none
+    display: none;
 }
 
 .todo-section__list-item_edit
 .input-text {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 ul li.todo-section__list-item_edit label {
