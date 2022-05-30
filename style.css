@@ -45,16 +45,16 @@
 }
 
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .list-item {
-    list-style:none;
+    list-style: none;
 }
 
-.input-text,.button {
-    outline:none;
+.input-text, .button {
+    outline: none;
 }
 
 .button {
@@ -159,15 +159,15 @@ ul#completed-tasks label {
 /* Edit Task */
 .list
 .input-text {
-    display:none
+    display: none
 }
 
 .todo-section__list-item_edit
 .input-text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 ul li.todo-section__list-item_edit label {
-    display:none;
+    display: none;
 }
