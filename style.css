@@ -34,7 +34,8 @@
     margin: 0 auto 0;
 }
 
-.task {
+.main__task-text,
+.input-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -73,8 +74,7 @@
 }
 
 /* Heading */
-.main__header,
-label[for="new-task"] {
+.main__header {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -129,7 +129,7 @@ label[for="new-task"] {
     margin: 0 10px;
 }
 
-li > label {
+.main__task-text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
